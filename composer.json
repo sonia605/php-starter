@@ -1,0 +1,18 @@
+{
+    "name": "sonia/boilerplate",
+    "description": "Its a boilerplate project",
+    "type": "project",
+    "require": {
+        "larapack/dd": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sonia Akter"
+        }
+    ]
+}
