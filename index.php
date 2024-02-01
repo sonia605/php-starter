@@ -7,7 +7,7 @@ use App\Controllers\TeacherController;
 require "vendor/autoload.php";
 
 //const BASE_PATH = __DIR__;
-const VIEW_PATH = __DIR__ . DIRECTORY_SEPARATOR . "src" . DIRECTORY_SEPARATOR . "Views";
+const VIEW_PATH = __DIR__ . DIRECTORY_SEPARATOR . "views";
 
 $uri = $_SERVER['REQUEST_URI'];
 $method = $_SERVER['REQUEST_METHOD'];

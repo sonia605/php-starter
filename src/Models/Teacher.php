@@ -9,7 +9,7 @@ class Teacher
     }
     public function get()
     {
-        return [
+        return [ // Array of Arrays
             [
                 "name" => "Hasan",
                 "gender" => "male",

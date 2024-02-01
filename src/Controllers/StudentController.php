@@ -13,7 +13,7 @@ class StudentController
         $students = $model->get();
 
         include  VIEW_PATH . '/students/index.view.php';
-        include  'E:\web project\xampp\htdocs\boilerplate\src\Views\students\index.view.php';
+//        include  'E:\web project\xampp\htdocs\boilerplate\src\Views\students\index.view.php';
 
     }
 }
