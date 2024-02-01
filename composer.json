@@ -3,7 +3,8 @@
     "description": "Its a boilerplate project",
     "type": "project",
     "require": {
-        "larapack/dd": "^1.1"
+        "larapack/dd": "^1.1",
+        "symfony/dotenv": "^7.0"
     },
     "autoload": {
         "psr-4": {

@@ -3,8 +3,12 @@
 use App\Controllers\ProductController;
 use App\Controllers\StudentController;
 use App\Controllers\TeacherController;
+use Symfony\Component\Dotenv\Dotenv;
 
 require "vendor/autoload.php";
+
+$dotenv = new Dotenv();
+$dotenv->load(__DIR__.'/.env');
 
 //const BASE_PATH = __DIR__;
 const VIEW_PATH = __DIR__ . DIRECTORY_SEPARATOR . "views";

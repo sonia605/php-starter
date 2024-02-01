@@ -6,9 +6,14 @@ class Student
 {
     public function get()
     {
+        $host = $_ENV['DB_HOST'];
+        $port = $_ENV['DB_PORT'];
+        $db = $_ENV['DB_NAME'];
+        $user = $_ENV['DB_USERNAME'];
+
         $pdo = new \PDO(
-            "mysql:host=localhost:3306;dbname=new project",
-            'root',
+            "mysql:host={$host}:{$port};dbname={$db}",
+            $user,
             null
         );
         $sm = $pdo->prepare("SELECT * FROM students");
